@@ -62,15 +62,69 @@ body {
     position: relative;
 }
 
+.text-tittle{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 div .text{
     position: absolute;
-    height: 50%; 
+    /* height: 50%;  */
     top: 50%;
-    left: 50%;
+    left: 42%;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-size: 20px;
+}
+
+.start{
+    position: absolute;
+    top: 62% ;
+    left: 45% ;
+    background-color: #0066FF40;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 200px;
+    z-index: 3;
+}
+
+.start:hover{
+    background-color: #b4d2ff40;
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+}
+
+.text2{
+    position: absolute;
+    height: 50%; 
+    top: 55%;
+    left: 44%;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text3{
+    position: absolute;
+    height: auto;  
+    top: 58%;
+    left: 44.5%;
     color: white;
     z-index: 1;
     text-align: center;
 }
+
 
 .allPicture {
     background-repeat: no-repeat;
