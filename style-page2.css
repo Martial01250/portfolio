@@ -5,8 +5,8 @@ body{
     padding: 0;
 }
 
-div .img{
-    position:absolute;
+div .backgroundimage{
+    position: absolute;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -14,7 +14,138 @@ div .img{
     background-position: center;
 }
 
-.img{
+.backgroundimage{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil12.jpg);
+}
+
+ul {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    top: 15px;
+    right: 15px;
+}
+
+.litop {
+    float:right;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    outline: 2px solid white;
+    border-radius: 50%;
+    background-color: #b4d2ff40;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3
+}
+
+.logoTop{
+    width: 25px;
+    height: 25px;
+}
+
+.logomt{
+    position:absolute;
+    height: 100px;
+    top: 7px;
+    left: 7px;
+}
+
+
+h1{
+    color: white;
+    border-style: double;
+    background-color: #b4d2ff40 ;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.paragraphe{
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+p{
+   width: 100%;
+}
+
+.mep{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: ;
+}
+
+.bouton{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button{
+    color: white;
+    background-color: #b4d2ff40;
+    margin: 10px;
+    Width: 142px ;
+    Height: 48px;
+    Top: 944px;
+    Left: 1046px;
+    border-radius: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media(max-width: 500px){
+    .logomt {
+        height: 50px;
+        top: 10%;
+        left: 41%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        left: 2px;
+        top: 2px
+    }
+    .mep{
+        display: block;
+        justify-items: center;
+    }
+    h1, .paragraphe{
+        width: 100%;  
+    }
+}
+
+
+@media(max-width: 600px){
+    p{
+        height: 460px ;
+        overflow: scroll;
+    }
 }

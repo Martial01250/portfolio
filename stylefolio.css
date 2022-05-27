@@ -77,7 +77,6 @@ div .text{
 }
 
 .start{
-    /* position: absolute; */
     margin: auto;
     background-color: #0066FF40;
     border-radius: 20px;
@@ -89,13 +88,14 @@ div .text{
     display: block;
     margin-top: 10px;
     text-align: center;
+    text-decoration: none;
 }
 
 .start:hover{
     background-color: #b4d2ff40;
     cursor: pointer;
     border: 3px solid white;
-    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3 ;
 }
 
 .text-left{
@@ -182,3 +182,5 @@ div .text{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil8.jpg)
 }
+
+/* menu deroulant a faire en responsive */
