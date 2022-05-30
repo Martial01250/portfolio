@@ -1,0 +1,173 @@
+body{
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+div .backgroundimage{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundimage{
+    background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
+    url(images/accueil33.jpeg)
+}
+
+ul {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    top: 15px;
+    right: 15px;
+}
+
+.litop {
+    float:right;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    outline: 2px solid white;
+    border-radius: 50%;
+    background-color: #b4d2ff40;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3
+}
+
+ul {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    top: 15px;
+    right: 15px;
+}
+
+.litop {
+    float:right;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    outline: 2px solid white;
+    border-radius: 50%;
+    background-color: #b4d2ff40;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3
+}
+
+.logoTop{
+    width: 25px;
+    height: 25px;
+}
+
+.logomt{
+    position:absolute;
+    height: 100px;
+    top: 7px;
+    left: 7px;
+}
+
+h1{
+    color: white;
+    border-style: double;
+    background-color: #b4d2ff40 ;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.mep{
+    margin-top: 4%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: ;
+}
+
+.projetMep{
+    width: 750px;
+    display: block;
+    justify-content: center;
+}
+.projet1{
+    outline: 2px solid white;
+    width: 745px;
+    height: 209px;
+    left: 621px;
+    top: 254px;
+    border-radius: 0px 35px;
+}
+
+.projet2{
+    outline: 2px solid white;
+    margin-top: 50px;
+    width: 745px;
+    height: 210px;
+    left: 621px;
+    top: 579px;
+    border-radius: 35px 0px;
+}
+
+.bouton{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button{
+    color: white;
+    background-color: #b4d2ff40;
+    margin: 10px;
+    Width: 142px ;
+    Height: 48px;
+    Top: 944px;
+    Left: 1046px;
+    border-radius: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
