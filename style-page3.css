@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "inter" ;
+    src: url(font/static/Inter-Regular.ttf);
+}
+
 body{
     height: 100vh;
     width: 100vh;
@@ -165,9 +170,49 @@ button{
     Top: 944px;
     Left: 1046px;
     border-radius: 40px;
+    border-color: white;
 }
 
 a{
     color: white;
     text-decoration: none;
+}
+
+@media(max-width: 920px) {
+    .logomt {
+        height: 50px;
+        top: 10%;
+        left: 45%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        left: 2px;
+        top: 2px
+    }
+    .mep{
+        display: block;
+        justify-items: center;
+    }
+    h1, .paragraphe{
+        width: 100%;
+        margin-top: 55px;  
+    }
+
+    .projetMep{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projet1{
+        width: 350px;
+        height: 130px;
+    }
+
+    .projet2{
+        width: 350px;
+        height: 130px;
+    }
 }

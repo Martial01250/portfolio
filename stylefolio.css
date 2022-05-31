@@ -7,18 +7,21 @@ body {
     margin: 0;
     padding: 0;
     font-family: "inter";
+    background-color: rgb(0, 40, 100);
 }
 
 .row {
     display: flex;
     height: 100vh;
     overflow: hidden;
+    /* animation : deplacement-gauche 3s ease; */
 }
 
 .col-50 {
   width: 50%;
   position: relative;
 }
+
 
 .col-50 img {
     position: relative;
@@ -72,7 +75,7 @@ div .text{
     color: white;
     z-index: 1;
     text-align: center;
-    font-size: 20px;
+    font-size: 36px;
     margin: auto;
 }
 
@@ -147,40 +150,79 @@ div .text{
 .imgAccueil {
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil12.jpg);
+    animation : deplacement-gauche 1s ease;
 }
 
 .imgAccueil2{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
-    url(images/accueil2.png)
+    url(images/accueil2.png);
+    animation : deplacement-haute 1.5s ease;  
 }
 
 .imgAccueil3{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
-    url(images/accueil3.png)
+    url(images/accueil3.png);
+    animation : deplacement-bas 2s ease;
 }
 
 .imgAccueil4{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
-    url(images/accueil4.png)
+    url(images/accueil4.png);
+    animation : deplacement-doite 2.4s ease;   
 }
 
 .imgAccueil5{background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
-    url(images/accueil5.png)
+    url(images/accueil5.png);
+    animation : deplacement-bas 2.8s  ease;  
 }
 
 .imgAccueil6{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
-    url(images/accueil6.jpg)
+    url(images/accueil6.jpg);
+    animation : deplacement-doite 3s  ease;   
 }
 
 .imgAccueil7{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
-    url(images/accueil7.jpg)
+    url(images/accueil7.jpg);
+    animation : deplacement-bas 3.2s  ease;
 }
 
 .imgAccueil8{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
-    url(images/accueil8.jpg)
+    url(images/accueil8.jpg);
+    animation : deplacement-doite 3.4s  ease;
 }
 
+@keyframes deplacement-gauche {
+    from{
+      transform : translateX(-1970px);
+    } to {
+      transform : translateX(0px);
+    }
+  }
+
+@keyframes deplacement-haute {
+    from{
+      transform : translatey(-570px);
+    } to {
+      transform : translatey(0px);
+    }
+}
+
+@keyframes deplacement-doite {
+    from{
+      transform : translatex(570px);
+    } to {
+      transform : translatex(0px);
+    }
+}
+
+@keyframes deplacement-bas {
+    from{
+      transform : translatey(570px);
+    } to {
+      transform : translatey(0px);
+    }
+}
 /* menu deroulant a faire en responsive */
