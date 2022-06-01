@@ -3,25 +3,12 @@
     src: url(font/static/Inter-Regular.ttf);
 }
 
+/* commun a chaque pages */
 body{
     height: 100vh;
     width: 100vh;
     margin: 0;
     padding: 0;
-}
-
-div .backgroundimage{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.backgroundimage{
-    background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
-    url(images/accueil12.jpg);
 }
 
 ul {
@@ -74,7 +61,7 @@ li a:hover {
     left: 7px;
 }
 
-
+/* page about-me */
 h1{
     color: white;
     border-style: double;
@@ -91,10 +78,6 @@ h1{
     color: white;
 }
 
-p{
-   width: 100%;
-}
-
 .mep{
     margin-top: 20%;
     display: flex;
@@ -103,8 +86,12 @@ p{
     vertical-align: ;
 }
 
+p{
+   width: 100%;
+}
+
 .bouton{
-    margin-top: 10%;
+    margin-top: 9%;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -126,7 +113,223 @@ a{
     text-decoration: none;
 }
 
+div .backgroundimage1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.backgroundimage1{
+    background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
+    url(images/accueil12.jpg);
+}
+
+
+/* Page projets */
+
+div .backgroundimage2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.backgroundimage2{
+    background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
+    url(images/accueil33.jpeg)
+}
+
+.mep2{
+    margin-top: 4%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projetMep{
+    width: 750px;
+    display: block;
+    justify-content: center;
+}
+.projet1{
+    outline: 2px solid white;
+    width: 745px;
+    height: 209px;
+    left: 621px;
+    top: 254px;
+    border-radius: 0px 35px;
+}
+
+.projet2{
+    outline: 2px solid white;
+    margin-top: 50px;
+    width: 745px;
+    height: 210px;
+    left: 621px;
+    top: 579px;
+    border-radius: 35px 0px;
+}
+
+.bouton2{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button{
+    color: white;
+    background-color: #b4d2ff40;
+    margin: 10px;
+    Width: 142px ;
+    Height: 48px;
+    Top: 944px;
+    Left: 1046px;
+    border-radius: 40px;
+    border-color: white;
+}
+
+
+/* page Competence */
+
+div .backgroundimage3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundimage3{
+    background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
+    url(images/maxccanyon-1.jpg)
+}
+
+.bouton3{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container {
+    background-color: rgba(0, 40, 100, 0.315);
+    width: 80%;
+    border-radius: 15px;
+    outline: 1px solid white;
+}
+
+.skill {
+    background-color: rgba(9, 102, 241, 0.719);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 70%;
+}
+
+.java {
+    width: 15%;
+}
+
+.css {
+    width: 60%;
+}
+
+.bootstrap{
+    width: 20%;
+}
+
+.word{
+    width: 25%;
+}
+
+.titlepage{
+    color: white;
+    border-style: double;
+    background-color: #b4d2ff40 ;
+    height: 60px;
+    width: 190px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.mep3{
+    margin-top: 4%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: ;
+}
+
+.tableauskill{
+    width: 50%;
+}
+
+
+/* page contact */
+
+div .backgroundimage4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundimage4{
+    background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
+    url(images/accueil7.jpg)
+}
+
+.mep4{
+    margin-top: 2%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logocontact{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logocontact2{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cadre{
+    outline: 2px solid white;
+    rotate: 45deg;
+}
+
+.logopage{
+    rotate: -45deg
+}
+
+.bouton4{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3.7%;
+}
+
+/* responsive about-me */
 @media(max-width: 500px){
     .logomt {
         height: 50px;
@@ -148,10 +351,50 @@ a{
     }
 }
 
-
 @media(max-width: 600px){
     p{
         height: 460px ;
         overflow: scroll;
+    }
+}
+
+
+/* responsive projet */
+@media(max-width: 920px) {
+    .logomt {
+        height: 50px;
+        top: 10%;
+        left: 45%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        left: 2px;
+        top: 2px
+    }
+    .mep2{
+        display: block;
+        justify-items: center;
+    }
+    h1, .paragraphe{
+        width: 100%;
+        margin-top: 55px;  
+    }
+
+    .projetMep{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projet1{
+        width: 350px;
+        height: 130px;
+    }
+
+    .projet2{
+        width: 350px;
+        height: 130px;
     }
 }
