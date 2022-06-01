@@ -64,9 +64,14 @@ body {
     position: relative;
 }
 
+.allPicture {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 div .text{
     position: relative;
-    /* height: 50%;  */
     top: 50%;
     color: white;
     z-index: 1;
@@ -130,13 +135,6 @@ div .text{
     color: white;
     z-index: 1;
     text-align: center;
-}
-
-
-.allPicture {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .imgAccueil {

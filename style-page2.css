@@ -5,6 +5,7 @@
 
 /* commun a chaque pages nav bar + logo*/
 body{
+    font-family: "inter";
     height: 100vh;
     width: 100vh;
     margin: 0;
@@ -91,7 +92,7 @@ p{
 }
 
 .bouton{
-    margin-top: 9%;
+    margin-top: 6%;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -216,6 +217,10 @@ div .backgroundimage3{
     flex-direction: row-reverse;
 }
 
+p{
+    color: white;
+}
+
 .container {
     background-color: rgba(0, 40, 100, 0.315);
     width: 80%;
@@ -257,7 +262,7 @@ div .backgroundimage3{
     border-style: double;
     background-color: #b4d2ff40 ;
     height: 60px;
-    width: 190px;
+    width: 250px;
     text-align: center;
     padding-top: 13px;
 }
