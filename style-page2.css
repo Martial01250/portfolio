@@ -68,7 +68,7 @@ h1{
     border-style: double;
     background-color: #b4d2ff40 ;
     height: 60px;
-    width: 160px;
+    width: 180px;
     text-align: center;
     padding-top: 13px;
 }
@@ -84,7 +84,6 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    vertical-align: ;
 }
 
 p{
@@ -273,7 +272,6 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    vertical-align: ;
 }
 
 .tableauskill{
