@@ -3,7 +3,7 @@
     src: url(font/static/Inter-Regular.ttf);
 }
 
-/* commun a chaque pages */
+/* commun a chaque pages nav bar + logo*/
 body{
     height: 100vh;
     width: 100vh;
@@ -61,7 +61,7 @@ li a:hover {
     left: 7px;
 }
 
-/* page about-me */
+/* page about-me  image+ mise en page elements*/
 h1{
     color: white;
     border-style: double;
@@ -128,7 +128,7 @@ div .backgroundimage1{
 }
 
 
-/* Page projets */
+/* Page projets image+ mise en page elements*/
 
 div .backgroundimage2{
     position: absolute;
@@ -194,7 +194,7 @@ button{
 }
 
 
-/* page Competence */
+/* page Competence image+ mise en page elements*/
 
 div .backgroundimage3{
     position: absolute;
@@ -276,7 +276,7 @@ div .backgroundimage3{
 }
 
 
-/* page contact */
+/* page contact image+ mise en page elements*/
 
 div .backgroundimage4{
     position: absolute;

@@ -14,7 +14,6 @@ body {
     display: flex;
     height: 100vh;
     overflow: hidden;
-    /* animation : deplacement-gauche 3s ease; */
 }
 
 .col-50 {
@@ -26,9 +25,7 @@ body {
 .col-50 img {
     position: relative;
     margin: auto;
-  /* width: 100%; */
-  /* height: 100%; */
-  object-fit: cover;
+    object-fit: cover;
 }
 
 .col-50 .img-top-h50{
@@ -49,13 +46,13 @@ body {
 .row.row-h50{
     height: 50%;
     position: relative;
-    
 }
 
 .img-low-h50{
     height: 50% ;
     position: relative;
 }
+
 .img-low-l100{
     width: 100%;
     height: 100%;
@@ -66,7 +63,6 @@ body {
     width: 50%;
     position: relative;
 }
-
 
 div .text{
     position: relative;
@@ -105,11 +101,9 @@ div .text{
     position: relative;
     top: 50%;
     margin: auto;
-    
 }
 
 .text-tittle{
-    /* position: absolute; */
     top: 50%;
     left: 40%;
     color: white;
@@ -121,7 +115,6 @@ div .text{
 
 
 .text2{
-    /* position: absolute; */
     top: 55%;
     left: 44%;
     color: white;
@@ -131,7 +124,6 @@ div .text{
 }
 
 .text3{
-    /* position: absolute; */
     height: auto;  
     top: 58%;
     left: 44.5%;
@@ -194,13 +186,15 @@ div .text{
     animation : deplacement-doite 3.4s  ease;
 }
 
+
+/* annimation entré sur page */
 @keyframes deplacement-gauche {
     from{
       transform : translateX(-1970px);
     } to {
       transform : translateX(0px);
     }
-  }
+}
 
 @keyframes deplacement-haute {
     from{
@@ -225,4 +219,3 @@ div .text{
       transform : translatey(0px);
     }
 }
-/* menu deroulant a faire en responsive */
