@@ -21,7 +21,6 @@ body {
   position: relative;
 }
 
-
 .col-50 img {
     position: relative;
     margin: auto;
@@ -146,46 +145,48 @@ div .text{
 .imgAccueil2{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil2.png);
-    animation : deplacement-haute 1.5s ease;  
+    animation : deplacement-haute 1.3s ease;
 }
 
 .imgAccueil3{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil3.png);
-    animation : deplacement-bas 2s ease;
+    animation : deplacement-bas 1.6s ease;
 }
 
 .imgAccueil4{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil4.png);
-    animation : deplacement-doite 2.4s ease;   
+    animation : deplacement-doite 1.9s ease; 
 }
 
 .imgAccueil5{background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil5.png);
-    animation : deplacement-bas 2.8s  ease;  
+    animation : deplacement-bas 2.2s  ease; 
 }
 
 .imgAccueil6{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil6.jpg);
-    animation : deplacement-doite 3s  ease;   
+    animation : deplacement-doite 2.4s  ease;   
 }
 
 .imgAccueil7{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil7.jpg);
-    animation : deplacement-bas 3.2s  ease;
+    animation : deplacement-bas 2.6s  ease;
 }
 
 .imgAccueil8{
     background-image: linear-gradient(rgba(0, 40, 100, 0.5),rgba(0, 40, 100, 0.5)),
     url(images/accueil8.jpg);
-    animation : deplacement-doite 3.4s  ease;
+    animation : deplacement-doite 2.7s  ease;
 }
 
 
+
 /* annimation entré sur page */
+
 @keyframes deplacement-gauche {
     from{
       transform : translateX(-1970px);
