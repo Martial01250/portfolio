@@ -318,11 +318,17 @@ div .backgroundimage4{
 }
 
 .cadre{
+    align-items: center;
+    height: 70px;
+    width: 70px;
     outline: 2px solid white;
     rotate: 45deg;
 }
 
 .logopage{
+    margin-top: 8px;
+    margin-left: 9px;
+    margin-right: 2px;
     rotate: -45deg
 }
 
