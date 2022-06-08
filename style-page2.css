@@ -41,10 +41,11 @@ li a {
     text-decoration: none;
 }
 
+
 li a:hover {
     outline: 2px solid white;
     border-radius: 50%;
-    background-color: #b4d2ff40;
+    background-color: #b4d2ff57;
     width: 25px;
     height: 25px;
     box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3
@@ -53,7 +54,9 @@ li a:hover {
 .logoTop{
     width: 25px;
     height: 25px;
+    color: #fff;
 }
+
 
 .logomt{
     position:absolute;
@@ -157,22 +160,63 @@ div .backgroundimage2{
     justify-content: center;
 }
 .projet1{
-    outline: 2px solid white;
     width: 745px;
     height: 209px;
     left: 621px;
     top: 254px;
     border-radius: 0px 35px;
+    animation : deplacement-doite 1.8s  ease;
+    animation: flicker 2s infinite alternate;
 }
 
+h1{
+    animation: flicker 2s infinite alternate;
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    20%, 24%, 55% {       
+        text-shadow: none;
+    }
+}
 .projet2{
-    outline: 2px solid white;
     margin-top: 50px;
     width: 745px;
     height: 210px;
     left: 621px;
     top: 579px;
     border-radius: 35px 0px;
+    animation : deplacement-gauche 2s ease;
+}
+
+@keyframes deplacement-doite {
+    from{
+      transform : translatex(170px);
+      opacity: 0;
+    } to {
+      transform : translatex(0px);
+      opacity: 1;
+    }
+}
+
+@keyframes deplacement-gauche {
+    from{
+      transform : translateX(-170px);
+      opacity: 0;
+    } to {
+      transform : translateX(0px);
+      opacity: 1;
+    }
 }
 
 .bouton2{
@@ -234,8 +278,18 @@ p{
     text-align: right;
     font-size: 20px;
     border-radius: 15px;
+    /* animation : deplacement-skill 2s ease; */
 }
 
+/* @keyframes deplacement-skill { 
+    from{
+      transform : translateX(-270px);
+      opacity: 0;
+    } to {
+      transform : translateX(0px);
+      opacity: 1;
+    }
+}*/
 .html {
     width: 70%;
 }
@@ -339,7 +393,9 @@ div .backgroundimage4{
 }
 
 /* responsive about-me */
-@media(max-width: 500px){
+
+@media(max-width: 500px) {
+
     .logomt {
         height: 50px;
         top: 10%;
